@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html tags and attributes </title>
+    <style>
+        body{
+            margin: 2rem;
+        }
+    </style>
+    
+</head>
+<body>
+    <h2>Introduction to HTML</h2>
+    <p>HTML - Hyper Text Markup Language.</p>
+    <p>HTML is a markup language which provides a set of tags suitable for making up webpages.</p>
+    <p>HTML is a hyper text language because it supports font styled text , pictures , graphics and animations .</p>
+
+    <h2>Structure of the Html document</h2>
+    <p>All HTML documents does follow some basics structure.<br>
+        It has two blocks <br>
+        <ul>
+            <li>Head block</li>
+            <li>Body block</li>
+        </ul>
+    </p>
+    <p>Example<br>
+    <code>
+        &lt;!doctype&gt;<br>
+        &lt;html&gt; <br>
+        &lt;head &gt;<br>
+        &lt;title &gt;page
+        &lt;/title &gt;<br>
+        &lt;/head&gt; <br>
+        &lt;body &gt;<br>
+        &lt;/body &gt;<br>
+        &lt;/html &gt;<br>
+    </code>
+
+    </p>
+
+
+    <!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Introduction</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; padding: 20px; }
+        .example { background: #f4f4f4; padding: 10px; border-left: 4px solid #333; margin-bottom: 20px; }
+        pre { background: #eee; padding: 10px; overflow-x: auto; }
+    </style>
+</head>
+<body>
+    <h1>Introduction to HTML</h1>
+    <p>HTML (HyperText Markup Language) is the standard language for creating webpages.</p><div class="example">
+    <h2>1. Basic Structure</h2>
+    <p>Defines the structure of an HTML document.</p>
+    <pre>
+
+<!DOCTYPE html> <html> <head> <title>My Page</title> </head> <body> <h1>Hello, World!</h1> </body> </html> </pre> </div>
+
+<div class="example">
+    <h2>2. Headings</h2>
+    <p>Used to define headings from h1 (largest) to h6 (smallest).</p>
+    <pre>
+
+<h1>Heading 1</h1> <h2>Heading 2</h2> <h3>Heading 3</h3> <h4>Heading 4</h4> <h5>Heading 5</h5> <h6>Heading 6</h6> </pre> </div>
+
+<div class="example">
+    <h2>3. Paragraphs & Line Breaks</h2>
+    <p>Defines a paragraph and inserts a line break.</p>
+    <pre>
+
+<p>This is a paragraph.</p> <br> <p>This is another paragraph.</p> </pre> </div>
+
+<div class="example">
+    <h2>4. Links</h2>
+    <p>Creates hyperlinks to navigate between webpages.</p>
+    <pre>
+
+<a href="https://www.example.com" target="_blank">Visit Example</a> </pre> </div>
+
+<div class="example">
+    <h2>5. Images</h2>
+    <p>Embeds an image in the webpage.</p>
+    <pre>
+
+<img src="image.jpg" alt="Sample Image" width="300"> </pre> </div>
+
+<div class="example">
+    <h2>6. Lists</h2>
+    <p>Defines ordered (numbered) and unordered (bulleted) lists.</p>
+    <p>Ordered List:</p>
+    <pre>
+
+<ol> <li>Item 1</li> <li>Item 2</li> </ol> </pre> <p>Unordered List:</p> <pre> <ul> <li>Item A</li> <li>Item B</li> </ul> </pre> </div>
+
+<div class="example">
+    <h2>7. Tables</h2>
+    <p>Used to display data in tabular form.</p>
+    <pre>
+
+<table border="1"> <tr> <th>Name</th> <th>Age</th> </tr> <tr> <td>John</td> <td>25</td> </tr> </table> </pre> </div>
+
+<div class="example">
+    <h2>8. Forms</h2>
+    <p>Allows user input through text fields, buttons, etc.</p>
+    <pre>
+
+<form> <label>Name:</label> <input type="text" name="name"> <br> <input type="submit" value="Submit"> </form> </pre> </div>
+
+
+<h1>Heading</h1>
+<p>Paragraph text.</p>
+</body>
+</html>
+</pre>
+<p>Components include:</p>
+<ul>
+  <li><strong>Doctype Declaration:</strong> Specifies the HTML version.</li>
+  <li><strong>HTML Tags:</strong> <code>&lt;html&gt;</code>, <code>&lt;head&gt;</code>, <code>&lt;body&gt;</code>.</li>
+  <li><strong>Content Tags:</strong> Elements like <code>&lt;h1&gt;</code>, <code>&lt;p&gt;</code>.</li>
+</ul>
+</div>
+
+<div class="section">
+<h2>2. HTML Elements</h2>
+<p>HTML documents are built using elements enclosed in tags:</p>
+<pre>
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+<a href="https://example.com">This is a link</a>
+</pre>
+</div>
+
+<div class="section">
+<h2>3. Attributes</h2>
+<p>Attributes provide additional information about an element:</p>
+<pre>
+<img src="image.jpg" alt="Image description">
+<a href="https://example.com" target="_blank">Visit Site</a>
+</pre>
+<p>Common attributes:</p>
+<ul>
+  <li><strong><code>src</code>:</strong> Specifies source for images or media.</li>
+  <li><strong><code>href</code>:</strong> Specifies URL for links.</li>
+  <li><strong><code>alt</code>:</strong> Describes images for accessibility.</li>
+</ul>
+</div>
+
+<div class="section">
+<h2>4. Semantic Elements</h2>
+<p>HTML5 introduced semantic elements to improve readability:</p>
+<ul>
+  <li><strong><code>&lt;header&gt;</code>:</strong> Defines the header section.</li>
+  <li><strong><code>&lt;footer&gt;</code>:</strong> Defines the footer section.</li>
+  <li><strong><code>&lt;article&gt;</code>:</strong> Represents independent content.</li>
+  <li><strong><code>&lt;section&gt;</code>:</strong> Groups related content.</li>
+</ul>
+</div>
+
+<div class="section">
+<h2>5. Forms and Inputs</h2>
+<p>HTML allows user interaction through forms:</p>
+<pre>
+<form action="/submit" method="post">
+<label for="name">Name:</label>
+<input type="text" id="name" name="name">
+<button type="submit">Submit</button>
+</form>   
+</pre>
+</div>
+
+<div class="section">
+<h2>6. Multimedia</h2>
+<p>HTML supports multimedia like images, audio, and video:</p>
+<pre>
+<img src="image.jpg" alt="Sample Image">
+<video controls>
+<source src="video.mp4" type="video/mp4">
+</video>
+<audio controls>
+<source src="audio.mp3" type="audio/mpeg">
+</audio>
+</pre>
+</div>
+
+<div class="section">
+<h2>7. Tables</h2>
+<p>HTML tables organize data into rows and columns:</p>
+<pre>
+<table border="1">
+<tr>
+<th>Name</th>
+<th>Age</th>
+</tr>
+<tr>
+<td>John</td>
+<td>25</td>
+</tr>
+</table>
+</pre>
+</div>
+
+<footer>
+<p>&copy; 2024 HTML Language Overview. All rights reserved.</p>
+</footer>
+</body>
+</body>
+</html>
+
+    
+         
+
+    
+</html>
+</body>
